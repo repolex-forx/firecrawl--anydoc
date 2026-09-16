@@ -1,0 +1,7 @@
+[2026-09-16T23:32:11Z] === AST ITERATION 1 START | repo=firecrawl/anydoc sha=42bf1c5e ===
+[2026-09-16T23:32:11Z] [iter=1] PHASE START: ast repo=firecrawl/anydoc sha=42bf1c5e
+[2026-09-16T23:32:11Z] [iter=1] Building AST aggregate chunks
+[2026-09-16T23:34:11Z] [iter=1] AST chunks built count=1 triples=1445919
+[2026-09-16T23:34:11Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/42bf1c5ecdde9eb0d96d6bd75a9e6698cf93b14c/.complete
+[2026-09-16T23:34:11Z] [iter=1] PHASE END: ast elapsed_s=121 elapsed_min=2.0
+[2026-09-16T23:34:11Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
