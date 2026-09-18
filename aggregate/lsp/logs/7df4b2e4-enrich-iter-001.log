@@ -1,0 +1,22 @@
+[2026-09-18T09:05:49Z] === ENRICH ITERATION 1 START | repo=firecrawl/anydoc sha=7df4b2e4 ===
+[2026-09-18T09:05:49Z] [iter=1] PHASE START: enrich repo=firecrawl/anydoc sha=7df4b2e4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7df4b2e4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7df4b2e4213c033cfb8e94abc57ab88bb1e9b48c.nq.gz
+[2026-09-18T09:06:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-18T09:06:14Z] [iter=1] AST store loaded triples=1286011 load_secs=13 mem_mb=882 MB
+[2026-09-18T09:06:14Z] [iter=1] Step 2: Finding LSP targets mem_mb=882 MB
+[2026-09-18T09:06:16Z] [iter=1] LSP targets found call_sites=12206 imports=0 extends=0 implements=0 secs=2
+[2026-09-18T09:06:17Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=882 MB
+[2026-09-18T09:06:22Z] [iter=1] Position index built positions=84150 nodes_with_types=105127 secs=5 mem_mb=882 MB
+[2026-09-18T09:06:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=882 MB already_completed_types=[] already_completed_files=0
+[2026-09-18T09:06:22Z] [iter=1] Resolving target type target_type=call_site count=12206
+[2026-09-18T09:06:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=python/src/lib.rs
+[2026-09-18T09:07:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=1 resolved=47 errors=16 current=src/formats/odf/table.rs
+[2026-09-18T09:08:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=3 resolved=357 errors=169 current=wasm/src/document.rs
+[2026-09-18T09:08:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=5 resolved=357 errors=169 current=src/formats/docx/content.rs
+[2026-09-18T09:09:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=87 resolved=613 errors=12440 current=bench/report.py
+[2026-09-18T09:11:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=90 resolved=936 errors=12725 current=bench/render_truth.py
+[2026-09-18T09:11:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=96 resolved=1104 errors=12794 current=node/test.mjs
+[2026-09-18T09:12:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=98 resolved=1115 errors=12879 current=node/cli.js
+[2026-09-18T09:12:38Z] [iter=1] Target type resolved target_type=call_site resolved=1116 errors=12898 secs=375 mem_mb=882 MB
+[2026-09-18T09:13:59Z] [iter=1] Step 5: Writing final enrichment file triples=29184
+[2026-09-18T09:13:59Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7df4b2e4213c033cfb8e94abc57ab88bb1e9b48c.nq.gz size_kb=525
+[2026-09-18T09:13:59Z] [iter=1] PHASE END: enrich elapsed_s=490 elapsed_min=8.2 total_triples=29184
