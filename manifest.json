@@ -2341,6 +2341,178 @@
         "blob/5277e469fbf842d2a6edb9f0f220ca6aed5c0a68.nq.gz",
         "blob/98f34c18056c3ce13acb1e3e87b66c7726272881.nq.gz",
         "blob/0e32e5ccc890b90c5ea3c55d0018b22e895ac01b.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e754e1d33a1a540ebc9226e36f11d3f401852c9e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "calamine",
+          "ecosystem": "CARGO",
+          "version": "0.36.1",
+          "githubOrg": "tafia",
+          "githubRepo": "calamine",
+          "githubCommit": "0a24c2a9f1e38c0932c1299e633270dc730db505",
+          "githubTag": "v0.36.1",
+          "githubUrl": "https://github.com/tafia/calamine",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfb",
+          "ecosystem": "CARGO",
+          "version": "0.14.0",
+          "githubOrg": "mdsteele",
+          "githubRepo": "rust-cfb",
+          "githubCommit": "45d0d07adc8e95f9c239ac7dcc42761b1347ed3e",
+          "githubTag": "v0.14.0",
+          "githubUrl": "https://github.com/mdsteele/rust-cfb",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "csv",
+          "ecosystem": "CARGO",
+          "version": "1.4.0",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "rust-csv",
+          "githubCommit": "4a3997e91d668ea1d8595bdef15625a77cf2308a",
+          "githubTag": "1.4.0",
+          "githubUrl": "https://github.com/BurntSushi/rust-csv",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "flate2",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "flate2-rs",
+          "githubUrl": "https://github.com/rust-lang/flate2-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "encoding_rs",
+          "ecosystem": "CARGO",
+          "version": "0.8.35",
+          "githubOrg": "hsivonen",
+          "githubRepo": "encoding_rs",
+          "githubCommit": "2fa58aecf537cc76ff52c0eb3d5e9f8fda466844",
+          "githubTag": "v0.8.35",
+          "githubUrl": "https://github.com/hsivonen/encoding_rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "log",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "rust-lang",
+          "githubRepo": "log",
+          "githubUrl": "https://github.com/rust-lang/log",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pdf-inspector",
+          "ecosystem": "CARGO",
+          "version": "1.14.2",
+          "githubOrg": "firecrawl",
+          "githubRepo": "pdf-inspector",
+          "githubCommit": "4bee4f993ba28bd6a3334fa55e699b318663fba3",
+          "githubTag": "v1.14.2",
+          "githubUrl": "https://github.com/firecrawl/pdf-inspector",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quick-xml",
+          "ecosystem": "CARGO",
+          "version": "0.41.0",
+          "githubOrg": "tafia",
+          "githubRepo": "quick-xml",
+          "githubCommit": "4deda08abeffdc188c269360229cf47e12a77a9f",
+          "githubTag": "v0.41.0",
+          "githubUrl": "https://github.com/tafia/quick-xml",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zip",
+          "ecosystem": "CARGO",
+          "version": "8.6.0",
+          "githubOrg": "zip-rs",
+          "githubRepo": "zip2",
+          "githubCommit": "771dfc534d2614158af5497ea3dff4d4208d7db1",
+          "githubTag": "v8.6.0",
+          "githubUrl": "https://github.com/zip-rs/zip2",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "insta",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "mitsuhiko",
+          "githubRepo": "insta",
+          "githubUrl": "https://github.com/mitsuhiko/insta",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.11",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "hybrid-array",
+          "ecosystem": "CARGO",
+          "version": "0.4.14",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hybrid-array",
+          "githubCommit": "1b65ce708c931d27b2a17400d0dad92500f23f30",
+          "githubTag": "v0.4.14",
+          "githubUrl": "https://github.com/RustCrypto/hybrid-array",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hybrid-array-0.4.14/src/lib.rs"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.11.3",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.11.3/src/digest.rs"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.29.1",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "d7ad41f1fe4c10e46d08e4209fbb5ad2f5253e40",
+          "githubTag": "v0.29.1",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.29.1/src/instance.rs"
+        },
+        {
+          "packageName": "napi",
+          "ecosystem": "CARGO",
+          "version": "3.12.0",
+          "githubOrg": "napi-rs",
+          "githubRepo": "napi-rs",
+          "githubUrl": "https://github.com/napi-rs/napi-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/napi-3.12.0/src/bindgen_runtime/js_values/task.rs"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/requests/models.py"
+        }
       ]
     }
   ],

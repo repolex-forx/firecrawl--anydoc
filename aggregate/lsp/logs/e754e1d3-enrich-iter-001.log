@@ -1,0 +1,38 @@
+[2026-09-21T03:36:39Z] === ENRICH ITERATION 1 START | repo=firecrawl/anydoc sha=e754e1d3 ===
+[2026-09-21T03:36:39Z] [iter=1] PHASE START: enrich repo=firecrawl/anydoc sha=e754e1d3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/e754e1d3-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/e754e1d33a1a540ebc9226e36f11d3f401852c9e.nq.gz
+[2026-09-21T03:36:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-21T03:36:57Z] [iter=1] AST store loaded triples=1069361 load_secs=7 mem_mb=877 MB
+[2026-09-21T03:36:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=877 MB
+[2026-09-21T03:36:59Z] [iter=1] LSP targets found call_sites=9783 imports=0 extends=0 implements=0 secs=2
+[2026-09-21T03:37:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=877 MB
+[2026-09-21T03:37:07Z] [iter=1] Position index built positions=70531 nodes_with_types=88090 secs=7 mem_mb=877 MB
+[2026-09-21T03:37:07Z] [iter=1] Step 3: Starting LSP resolution mem_mb=877 MB already_completed_types=[] already_completed_files=0
+[2026-09-21T03:37:07Z] [iter=1] Resolving target type target_type=call_site count=9783
+[2026-09-21T03:37:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=tests/snapshots.rs
+[2026-09-21T03:38:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=1 resolved=106 errors=20 current=src/shared/html.rs
+[2026-09-21T03:39:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=2 resolved=319 errors=128 current=src/formats/rtf/mod.rs
+[2026-09-21T03:40:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=3 resolved=498 errors=265 current=src/package/path.rs
+[2026-09-21T03:40:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=5 resolved=680 errors=364 current=src/formats/docx/styles.rs
+[2026-09-21T03:41:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=7 resolved=890 errors=474 current=src/package/xml.rs
+[2026-09-21T03:42:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=9 resolved=1222 errors=654 current=src/model/table.rs
+[2026-09-21T03:43:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=10 resolved=1326 errors=774 current=src/formats/docx/content.rs
+[2026-09-21T03:44:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.2 files_done=11 resolved=1494 errors=914 current=src/formats/odf/table.rs
+[2026-09-21T03:45:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=13 resolved=1667 errors=999 current=src/formats/rtf/table.rs
+[2026-09-21T03:46:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=15 resolved=1970 errors=1187 current=src/shared/drawingml.rs
+[2026-09-21T03:47:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=20 resolved=2209 errors=1260 current=src/formats/rtf/lexer.rs
+[2026-09-21T03:47:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=25 resolved=2343 errors=1329 current=src/formats/ppt/styletext.rs
+[2026-09-21T03:48:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=29 resolved=2560 errors=1413 current=src/package/archive.rs
+[2026-09-21T03:49:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.5 files_done=34 resolved=2877 errors=1493 current=src/render/markdown/table.rs
+[2026-09-21T03:50:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=37 resolved=3167 errors=1612 current=src/formats/pptx/cascade.rs
+[2026-09-21T03:50:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=42 resolved=3446 errors=1687 current=src/render/markdown/mod.rs
+[2026-09-21T03:51:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=49 resolved=3790 errors=1776 current=src/formats/rtf/tables.rs
+[2026-09-21T03:51:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=52 resolved=4020 errors=1855 current=src/render/markdown/anchors.rs
+[2026-09-21T03:53:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=58 resolved=4219 errors=1912 current=src/error.rs
+[2026-09-21T03:53:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=81 resolved=4465 errors=1970 current=tests/gen_fixtures.py
+[2026-09-21T03:55:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=82 resolved=4619 errors=2156 current=python/tests/test_anydoc.py
+[2026-09-21T03:55:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=86 resolved=4871 errors=2213 current=bench/js/mammoth_convert.js
+[2026-09-21T03:56:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=90 resolved=4957 errors=2342 current=node/cli.js
+[2026-09-21T03:57:01Z] [iter=1] Target type resolved target_type=call_site resolved=4966 errors=2375 secs=1194 mem_mb=877 MB
+[2026-09-21T03:58:27Z] [iter=1] Step 5: Writing final enrichment file triples=61579
+[2026-09-21T03:58:28Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/e754e1d33a1a540ebc9226e36f11d3f401852c9e.nq.gz size_kb=1223
+[2026-09-21T03:58:28Z] [iter=1] PHASE END: enrich elapsed_s=1309 elapsed_min=21.8 total_triples=61579
